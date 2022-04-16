@@ -72,6 +72,7 @@ footer {
   }
 
   #column-3 {
+    width: 100%;
     background-color: greenyellow;
   }
 
@@ -79,6 +80,9 @@ footer {
     background-color: olivedrab;
   }
   
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
@@ -86,6 +90,10 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: maroon;
+  }
+
+  .col-3 {
+    width: 33.33333%;
   }
 
   #column-1 {
